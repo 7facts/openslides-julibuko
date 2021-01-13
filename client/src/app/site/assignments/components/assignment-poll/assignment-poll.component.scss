@@ -1,0 +1,25 @@
+@import '~assets/styles/poll-colors.scss';
+@import '~assets/styles/poll-styles-common.scss';
+
+.assignment-poll-wrapper {
+    position: relative;
+    margin: 0 15px;
+
+    .poll-menu {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    .poll-result-wrapper {
+        cursor: pointer;
+    }
+
+    .poll-detail-button-wrapper {
+        display: flex;
+        margin: auto 0;
+        > a {
+            margin-left: auto;
+        }
+    }
+}

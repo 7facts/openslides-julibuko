@@ -1,0 +1,40 @@
+.submit-buttons {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.meta-text {
+    font-style: italic;
+    margin-left: 10px;
+    margin-right: 10px;
+    mat-chip {
+        margin-left: 5px;
+        margin-right: 2px;
+    }
+}
+
+.candidate-name {
+    word-wrap: break-word;
+    width: 100%;
+    border-bottom: 1px solid grey;
+}
+
+.votes-grid {
+    display: grid;
+    grid-gap: 5px;
+    margin-bottom: 10px;
+    align-items: baseline;
+    grid-template-columns: auto max-content;
+    .mat-form-field {
+        width: 100%;
+    }
+}
+
+.sum-value {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.width-600 {
+    max-width: 600px;
+}
